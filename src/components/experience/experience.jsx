@@ -34,17 +34,11 @@ const Experience = () => {
               
             </div>
           </article>
-          <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icons'/>
-            <div>  
-              <h4>Typescript</h4>
-              
-            </div>
-          </article>
+        
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icons'/>
             <div>
-              <h4>React</h4>
+              <h4>ReactJS</h4>
               
             </div>
           </article>
@@ -84,51 +78,20 @@ const Experience = () => {
               
             </div>
           </article>
-          <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icons'/>
-            <div>
-              <h4>Nuxtjs</h4>
-              
-            </div>
-          </article>
+          
+          
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icons'/>
             <div>
               <h4>Expressjs</h4>
               
             </div>
-          </article>
-          <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icons'/>
-            <div>
-              <h4>Nextjs</h4>
-            </div>
+        
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icons'/>
             <div>
               <h4>MongoDB</h4>
-              
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icons'/>
-            <div>
-              <h4>GraphQl</h4>
-              
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icons'/>
-            <div>
-              <h4>Postgress</h4>
-              
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icons'/>
-            <div>
-              <h4>Redis</h4>
               
             </div>
           </article>

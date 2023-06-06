@@ -11,11 +11,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('shev', 'template_6srp76u', form.current, 'T8-CYX_mR1oTZ4hng')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+    emailjs.sendForm('service_wg75n1e',
+            'template_oxd3ryn', form.current, 'ap7TRNS7g_3fTjYFe')
+      .then(() => {
+          alert("message sent successfully");
+      }, () => {
+          alert("message not sent");
       });
       e.target.reset()
   };
@@ -30,15 +31,15 @@ const Contact = () => {
           <article className='contact__option'>
               <MdOutlineMarkEmailRead className='contact__option-icon'/>
               <h4>Email</h4>
-              <h5>o.d.alsherif@gmail.com</h5>
-              <a href="mailto:o.d.alsherif@gmail.com" target="_blank">Send A Message</a>
+              <h5>ayanfolarin@gmail.com</h5>
+              <a href="mailto:ayanfolarin@gmail.com" target="_blank">Send A Message</a>
           </article>
 
           <article className='contact__option'>
               <BsWhatsapp className='contact__option-icon'/>
               <h4>WhatsApp</h4>
-              <h5>+234 8177950542</h5>
-              <a href="https://wa.me/2348177950542" target="_blank">Send A Message</a>
+              <h5>+2349069079881</h5>
+              <a href="https://wa.me/2349069079881" target="_blank">Send A Message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}

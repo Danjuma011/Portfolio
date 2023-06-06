@@ -53,14 +53,6 @@ const services = () => {
               <BsCheckAll className='service__list-icon'/>
               <p>Communication with mongodb using mongoose</p>
             </li>
-            <li>
-              <BsCheckAll className='service__list-icon'/>
-              <p>JWT and Firebase authentication</p>
-            </li>
-            <li>
-              <BsCheckAll className='service__list-icon'/>
-              <p>Using  jOi for validation</p>
-            </li>
           </ul>
         </article>
         {/*END OF WEB DEVELOPMENT*/}

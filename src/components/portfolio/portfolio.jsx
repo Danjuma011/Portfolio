@@ -2,7 +2,7 @@ import React from 'react';
 import "./portfolio.css";
 import {Link} from 'react-router-dom';
 import vividioz from '../../Projects/portfolio_img/vivioz.PNG';
-import apple from '../../Projects/portfolio_img/AppleStore.png';
+import astrohome from '../../assets/Astrohome.png';
 import university from '../../Projects/portfolio_img/alicia.png'
 
 const portfolio = () => {
@@ -26,12 +26,12 @@ const portfolio = () => {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-          <img src={apple} alt="" />
+          <img src={astrohome} alt="" />
           </div>
           <h3>A'pple</h3>
           <div className='portfolio__item-cta flex justify-around'>
-          <a href="https://github.com/Lawdshev/Apple" className='btn' target='_blank'>Github</a>
-          <a href="https://majestic-gelato-78453c.netlify.app/" className='btn btn-primary' target='_blank'>Live
+            <a href="https://github.com/Danjuma011/AstroHome" className='btn' target='_blank'>Github</a>
+            <a href="https://astrohome.netlify.app" className='btn btn-primary' target='_blank'>Live
            Demo</a>
           </div>
         </article>

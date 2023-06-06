@@ -40,7 +40,7 @@ const about = () => {
         </div> */}
 
         <p>
-            I've been working in the industry for five years and have experience working on a range of projects, from small business websites to large e-commerce platforms. My technical skills include HTML, CSS, JavaScript, and I'm proficient in React, which I've used extensively in previous projects.
+            I've been working in the industry for 2 years and have experience working on a range of projects, from small business websites to large e-commerce platforms. My technical skills include HTML, CSS, JavaScript, and I'm proficient in React, which I've used extensively in previous projects.
 
             I also have a background in design, which helps me create user-friendly and visually appealing interfaces. When it comes to problem-solving, I'm a methodical thinker and enjoy working through complex issues to find a solution. I've also worked in team environments and enjoy collaborating with other developers, designers, and stakeholders.
 
